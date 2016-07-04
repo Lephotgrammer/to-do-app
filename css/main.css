@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+    font-size: 16px;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    background-color: #2E867E;
+    text-align: center;
+    padding: 5px;
+    margin-top: -5px;
+    color: white;
+}
+.wrap {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+    width: 90%;
+}
+.todo-app {
+    background: #43BBAF;
+    width: 100%;
+}
+textarea {
+    color: #212121;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-right: 1%;
+}
+button{
+    background: none;
+    border: 1px solid #2E867E;
+    color: white;
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    padding: 10px;
+}
+.glyphicon-plus{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.glyphicon-trash{
+    float:right;
+}
+.box{
+    text-align: left;
+    color: #212121;
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    border-bottom: 1px dashed #B6B6B6;
+}
+.tachado {
+    text-decoration: line-through;
+}
+input[type=checkbox] {
+    margin-right: 1%;
+}
+#tareas {
+    margin-top: 270px;
+}
+.carousel {
+    margin-top: -1px;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>To Do Application</title>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="navbar-fixed-top">
+    <div class="todo-app">
+      <div class="title">
+        <h1>To Do App</h1>
+      </div>
+      <div class="wrap">
+        <textarea id="texto" placeholder="Añade tu nueva tarea" minlength="5"></textarea>
+        <button type="button" id="tweetButton" onclick="añadir()">
+          <i class="glyphicon glyphicon-plus"></i>
+          Añadir tarea
+        </button>
+      </div>
+      </div>
+    </div>
+    </div>
+    <section id="tareas" class="wrap">
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
